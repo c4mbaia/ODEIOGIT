@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: gray;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    border-radius: 15px;
+}
+
+header nav {
+    display: flex;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 500px;
+    margin: 3%;
+    align-items: center;
+}
+
+header nav ul li button {
+    background-color: rgb(255, 255, 255);
+    border: solid 4px rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 7%;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+header nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+header nav img {
+    width: 20vh;
+    height: 10vw;
+}
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+#kitty:hover {
+    color: darkred;
+}
+
+.significado {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+
+}
+
+.historia {
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.manifesto {
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.regrasManifesto {
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: darkred;
+    font-weight: bold;
+}
+.Contato{
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+#negrito {
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkred;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
