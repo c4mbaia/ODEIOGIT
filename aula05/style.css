@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#conteiner {
+    background-color: rgb(255, 168, 215);
+    display: flex;
+    /* O flex altera como serão organizados os itens que estão dentro
+    de determinado elemento.
+     display: flex torna o elemento em um container flexivel que se adequara
+     aos itens internos e permitira que você organize as posições dos mesmos 
+     dentro do container*/
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 30vw;
+    margin: 0 auto;
+}
+
+.caixa {
+    width: 5cm;
+    height: 5cm;
+    background-color: white;
+    border: 3px solid rgb(255, 134, 199);
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.caixa img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.botao {
+    margin: 1.4cm;
+    background-color: rgb(255, 168, 215);
+    color: white;
+    display: inline-block;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#elem1 {
+    order: 3;
+}
+
+#elem2 {
+    order: 1;
+}
+
+#elem3 {
+    order: 2;
+}

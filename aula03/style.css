@@ -1,0 +1,23 @@
+@charset "UTF-8"; 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*body{
+    background-image: url(assets/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.quadrado_roxo{
+    height: 150px;
+    width: 150px;
+    background-color: darkslateblue;
+    color: white;
+}
+.quadrado_rosa{
+    height: 150px;
+    width: 150px;
+    background-color: deeppink;
+    color: white;
+}

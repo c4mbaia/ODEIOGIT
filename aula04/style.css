@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cartao{
+    border: 10px solid  rgb(255, 131, 197);
+    width: 1000px;
+    height: 600px;
+    border-radius: 7px;
+}
+#foto{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#descricao{
+    width: 70%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    color: deeppink;
+    font-size: x-large;
+    background-color: rgb(255, 210, 234);
+    padding: 3px;
+
+}
+#img{
+    width: 100%;
+}
