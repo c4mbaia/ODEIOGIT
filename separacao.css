@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
-body{
-   background-color:#e6e6e6;
+
+body {
+    background-color: #e6e6e6;
 }
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -22,23 +24,27 @@ nav a {
     color: black;
     font-weight: 500;
 }
-#inicio{
+
+#inicio {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 100px 20px;
 }
-#textos-inicio{
+
+#textos-inicio {
     font-size: 2em;
     margin-bottom: 10px;
     margin-left: 30px;
     margin-right: 20px;
 }
-#lixeiras{
+
+#lixeiras {
     display: flex;
     justify-content: space-evenly;
 }
-.lixo{
+
+.lixo {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -52,12 +58,34 @@ nav a {
     margin-bottom: 10px;
 }
 
-#dica-video{
+#dica-video {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-#dica-texto{
- font-size: 1.7em;
- margin-left: 35px;
+
+.dica-texto {
+    padding: 10px;
+    font-size: 2.1em;
+    margin-left: 35px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.dica-texto ul {
+    list-style: none;
+}
+
+.video {
+    margin-top: 40px;
+    margin-right: 50px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: white;
+    border-top: 1px solid #ccc;
 }
