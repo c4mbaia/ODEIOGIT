@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#first {
+    font-size: 2em;
+    text-align: center;
+}
+
+#videos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#cartilhas {
+    margin-top: 50px;
+    display: flex;
+}
+
+.materiais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 2.5em;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#video-principal{
+   background-color: white; 
+   font-size: 2.5em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+#acao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}

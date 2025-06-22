@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.conjunto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 855px;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+    border-radius: 10px;
+}
+
+#infos {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 575px;
+}
+
+.direitos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    font-size: 2.7em;
+}
+
+.dt {
+    display: flex;
+    font-size: 1.1em;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1em;
+    gap: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#video-direitos {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
